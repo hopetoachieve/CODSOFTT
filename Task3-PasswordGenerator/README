@@ -1,0 +1,29 @@
+Task 3 – GUI Password Generator
+
+This is a GUI-based Password Generator developed using Python and Tkinter as part of the CodSoft Python Internship – June 2025.
+
+The application allows users to generate secure, random passwords based on selected options such as length, inclusion of uppercase/lowercase letters, digits, and special symbols. It also includes a "Copy to Clipboard" feature and a user-friendly, interactive interface.
+
+
+- Choose desired password length
+- Select which character types to include:
+  - Uppercase (A-Z)
+  - Lowercase (a-z)
+  - Digits (0-9)
+  - Symbols (!@#$%^&)
+- One-click password generation
+- Copy the generated password to clipboard
+- Input validation and error messages
+- Clean and responsive UI layout
+ Technologies Used
+
+- **Python 3.11+**
+- **Tkinter** – for GUI development (standard with Python)
+- **random** and **string** – for password generation logic
+ How to Run
+
+1. Make sure you have Python installed.
+2. Open terminal in the `Task3-PasswordGenerator/` folder.
+3. Run the script:
+   ```bash
+   python password_generator.py
